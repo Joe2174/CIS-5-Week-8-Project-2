@@ -32,7 +32,7 @@ int main() {
     using std::cout;
     using std::endl;
   // TODO: print each index and scores[i]
-  for (int i = 0; i < N; ++i)
+  for (int i = 0; i < N; ++i) // Loop through the array
   {
 	  cout << "[" << i << "] = " << scores[i] << endl;
   }
